@@ -1,0 +1,56 @@
+body{margin: 0; padding: 0; font-family: 'roboto';}
+#topbar{width: 93%; margin: 0 auto; height: 40px;}
+#logo{margin-top: 8px; width: 100px; float: left; margin-right: 8px;}
+.topbar-section{float: left; border-left: 1px solid #cccccc; height: 100%;}
+#signin-img{height: 25px; margin:7px 15px; float: left;}
+span{ font-weight: 700; size: 90%; position: absolute;top: 11px;}
+#signin{width: 150px; border-right: 1px solid #cccccc;}
+#bell{height: 25px; margin:7px 10px; float: left;}
+.topbar-menu{font-weight: 700; font-size:90%; padding: 13px 15px 0 15px; height: 27px;}
+.topbar-menu i{margin-left: 30px;}
+#search-box{background-color: #a9a9a9; border: none; font-weight: 700; font-size: 14px; padding:5px 0px 5px 5px; margin: 5px; float: left; width: 250px;}
+#search-box::placeholder{font-weight: 700; font-size: 14px;}
+#searchbtn{height: 27px; position:relative; top: 5px; background-color: #a9a9a9; left: -5px; cursor: pointer;}
+.clear{clear:both}
+#menu-bar-container{width: 100%;background-color: #881919; height: 70px; border-top: 1px solid #cccccc;}
+#menu-bar{width:93%; margin: 0px auto;}
+h1{padding:0;margin: 0; color: white; font-size: 40px; font-weight: normal; padding-top: 10px; float: left;}
+#local-news a{color: white; text-decoration: none; font-size: 20px; position: relative; top: 20px; border: 0.5px solid #BB4545; padding: 10px;}
+#local-news{float: right;}
+#local-news a:hover{text-decoration: underline;}
+#menubar2-container{background-color: #721414; width: 100%;}
+#menubar2{ width: 93%; margin: 0 auto; height: 40px;}
+#menubar2 a{color: white; text-decoration: none; padding: 0 10px; border-right: 1px solid #BB4545; font-size: 18px; position: relative; top: 10px;}
+#menubar2 a:hover{text-decoration: underline;}
+#no-border{border-right: none !important;}
+#menubar2 a i{margin-left:10px;}
+#page-container{ width: 93%; margin: 0 auto;}
+h2{font-weight: normal; margin-top: 40px; font-size: 20px; border-bottom: 3px solid #a91717; width:106px ;}
+h3 a{color: black; font-size: 30px; text-decoration: none;}
+h3 a:hover{color: #1167a5;}
+#article-summary{color: #5a5a5a; width: 300px; float: left;}
+#article-summary i{margin-right: 10px;}
+#article-summary .technology{color: #a91717; text-decoration: none; border-left: 1px solid #cccccc; padding-left: 10px;}
+#article-summary .technology:hover{color:#1167a5;}
+#article-container{float:left; width: 750px; border-right: 1px solid #cccccc ; padding-right: 20px;}
+#image-1{width: 430px; margin-left: 20px; float: right;}
+#article-hr{border-top:2px solid #a91717; width: 50px;}
+.article-link{color: black; text-decoration: none;}
+.article-link:hover{ color: #1167a5;}
+#watchlisten{margin-left: 20px; width: 300px; float: right; position: relative; right: 150px; top: -30px;}
+h4{font-weight: normal; font-size: 20px;}
+.article-side{float: left; width:140px; margin-right: 10px;}
+.watchlisten-article{text-decoration: none; color: black; font-weight: bold; font-size: 18px;}
+.watchlisten-article:hover{color: #1167a5;}
+.date{color:#5a5a5a; border-right: 1px solid #cccccc;}
+.date i{padding-right: 10px; }
+#watchlisten .topic{color: #a91717; text-decoration: none; padding-left: 10px;}
+
+@media (max-width:840px){
+    #signin{display: none;}
+    .topbar-section{display: none;}
+    #local-news{display: none;}
+    #menubar2-container{display: none;}
+    #watchlisten{display: none;}
+    .main-article{display: flex;}
+}
